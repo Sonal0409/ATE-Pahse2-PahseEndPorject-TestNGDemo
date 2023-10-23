@@ -1,0 +1,23 @@
+<suite name="testsuite2" verbose="1" parallel="tests">
+
+<test name="starhealth001">
+<parameter name="name"  value="admin"/>
+<parameter name="mobile"  value="535354646"/>
+<parameter name="email"  value="admin2123@gmail.com"/>
+<classes>
+<class name="project.StartHealthPage">
+</class>
+</classes>
+</test>
+
+
+<test name="starhealth002">
+
+<classes>
+<class name="project.Starhealth002">
+</class>
+</classes>
+</test>
+
+
+</suite>
